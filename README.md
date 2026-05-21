@@ -35,16 +35,39 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+i) module funct1(a,b,c,d,f1);
+
+input a,b,c,d;
+
+output f1;
+
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+
+endmodule
+
+ii) module funct2(w,x,y,z,f2);
+
+input w,x,y,z;
+
+output f2;
+
+assign f2=((~y & z)|( w & y )|(x & y));
+
+endmodule
+
+Developed by: VISHNU.V
+RegisterNumber: 212225040494
 
 
 **RTL realization**
 
+<img width="762" height="398" alt="image" src="https://github.com/user-attachments/assets/3c7f08ea-0bf7-4276-af3f-d8a6b8d911e3" />
+
+
 **Output:**
 
-**RTL**
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/65398ce1-1144-4bb5-9d2a-4bbb5e4b057c" />
 
-**Timing Diagram**
 
 **Result:**
 
