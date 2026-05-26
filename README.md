@@ -58,6 +58,11 @@ RegisterNumber: 212225040494
 
 <img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/65398ce1-1144-4bb5-9d2a-4bbb5e4b057c" />
 
+**Timing diagram**
+
+<img width="1665" height="432" alt="image" src="https://github.com/user-attachments/assets/77e30d73-52ae-4512-8e28-4d464e8f3253" />
+
+
 
 **Result:**
 
